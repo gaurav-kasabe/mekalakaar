@@ -1,0 +1,275 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="EN" lang="EN" dir="ltr">
+<head profile="http://gmpg.org/xfn/11">
+<title>Me Kalakaar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="imagetoolbar" content="no" />
+<link rel="stylesheet" href="styles/layout.css" type="text/css" />
+<script type="text/javascript" src="scripts/jquery-1.4.1.min.js"></script>
+<script type="text/javascript" src="scripts/jquery-photostack.js"></script>
+<script type="text/javascript" src="scripts/jquery-coin-slider.min.js"></script>
+<script type="text/javascript" src="scripts/jquery-ui-1.8.12.custom.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('#portfolioslider').coinslider({
+        width: 480,
+        height: 280,
+        navigation: false,
+        links: false,
+        hoverPause: true
+    });
+    $("#tabcontainer").tabs({
+        event: "click"
+    });
+});
+</script>
+</head>
+<body id="top">
+<div class="wrapper home">
+<div class="wrapper col1">
+  <div id="header" class="clear">
+    <div class="fl_left">
+      <h1><a href="index.html"> <span id="title"><b>M</b>e <b>K</b>alakaar <b>R</b>angamancha</span></a></h1>
+      <p>For The Artist Within...</p>
+    </div>
+    <!--<div class="fl_right"><a href="#"><img src="images/demo/468x60.gif" alt="" /></a></div>-->
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col1">
+  <div id="topbar" class="clear">
+    <ul id="topnav">
+      <li class="active"><a href="index.html">Home</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Our Acievements</a></li>
+      <li><a href="#">The Theatre</a>
+        <ul>
+          <li><a href="#">Dramas</a></li>
+          <li><a href="#">Movies</a></li>
+        </ul>
+      </li>
+      <li ><a href="#">Gallery</a></li>
+      <li class="last"><a href="#">Join Us</a></li>
+    </ul>
+    <form action="#" method="post" id="search">
+      <fieldset>
+        <legend>Site Search</legend>
+        <input type="text" value="" onfocus="this.value=(this.value=='Search Our Website&hellip;')? '' : this.value ;" />
+        <input type="image" id="go" src="images/search.gif" alt="Search" />
+      </fieldset>
+    </form>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col1">
+  <div id="featured_slide">
+    <!-- ####################################################################################################### -->
+    <div id="slider">
+      <ul id="categories">
+        <li class="category">
+          <h2>Drama 1</h2>
+          <a href="#"><img src="images/3.jpg" alt="" /></a>
+          <p>Drama - 1 </p>
+          <p class="readmore"><a href="#">Read More &raquo;</a></p>
+        </li>
+        <li class="category">
+          <h2>Drama 2</h2>
+          <a href="#"><img src="images/4.jpg" alt="" /></a>
+          <p>Drama - 2</p>
+          <p class="readmore"><a href="#">Read More &raquo;</a></p>
+        </li>
+        <li class="category">
+          <h2>Movie</h2>
+          <a href="#"><img src="images/2.jpg" alt="" /></a>
+          <p>Movie - Kartabgar.</p>
+          <p class="readmore"><a href="#">Read More &raquo;</a></p>
+        </li>
+        <li class="category">
+          <h2>Movie 2</h2>
+          <a href="#"><img src="images/demo/150x110.gif" alt="" /></a>
+          <p>Content goes here.</p>
+          <p class="readmore"><a href="#">Read More &raquo;</a></p>
+        </li>
+        <li class="category">
+          <h2>Documentary 1</h2>
+          <a href="#"><img src="images/demo/150x110.gif" alt="" /></a>
+          <p>Content goes here.</p>
+          <p class="readmore"><a href="#">Read More &raquo;</a></p>
+        </li>
+        <li class="category">
+          <h2>Documetary 2</h2>
+          <a href="#"><img src="images/demo/150x110.gif" alt="" /></a>
+          <p>Content goes here.</p>
+          <p class="readmore"><a href="#">Read More &raquo;</a></p>
+        </li>
+        <li class="category">
+          <h2>Stage Show 1</h2>
+          <a href="#"><img src="images/demo/150x110.gif" alt="" /></a>
+          <p>Content goes here.</p>
+          <p class="readmore"><a href="#">Read More &raquo;</a></p>
+        </li>
+        <li class="category">
+          <h2>Stage Show 2</h2>
+          <a href="#"><img src="images/demo/150x110.gif" alt="" /></a>
+          <p>Content goes here.</p>
+          <p class="readmore"><a href="#">Read More &raquo;</a></p>
+        </li>
+      </ul>
+      <a class="prev disabled"></a> <a class="next disabled"></a>
+      <div style="clear:both"></div>
+    </div>
+    <!-- ####################################################################################################### -->
+  </div>
+</div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col2 hmpg">
+  <div id="container" class="clear">
+    <!-- ####################################################################################################### -->
+    <div id="tabcontainer">
+      <ul id="tabnav">
+        <li><a href="#tabs-3">The Team</a></li>
+        <li><a href="#tabs-2">Latest Projects</a></li>
+		<li><a href="#tabs-1">Our Skills</a></li>
+      </ul>
+      <div id="tabs-1" class="tabcontainer">
+        <div id="hpage_services" class="clear">
+          <div class="block"><img src="images/demo/46x46.gif" alt="" /><strong>Acting</strong>
+            <p>Content goes here.</p>
+          </div>
+          <div class="block"><img src="images/demo/46x46.gif" alt="" /><strong>Dancing</strong>
+            <p>Content goes here.</p>
+          </div>
+          <div class="block last"><img src="images/demo/46x46.gif" alt="" /><strong>Singing</strong>
+            <p>Content goes here.</p>
+          </div>
+          <div class="spacer">&nbsp;</div>
+          <div class="block"><img src="images/demo/46x46.gif" alt="" /><strong>Direction</strong>
+            <p>Content goes here.</p>
+          </div>
+          <div class="block"><img src="images/demo/46x46.gif" alt="" /><strong>Music Composition</strong>
+            <p>Content goes here.</p>
+          </div>
+          <div class="block last"><img src="images/demo/46x46.gif" alt="" /><strong>Theatre Management</strong>
+            <p>Content goes here.</p>
+          </div>
+        </div>
+      </div>
+      <!-- ########### -->
+      <div id="tabs-2" class="tabcontainer">
+        <h2 class="title">Latest projects </h2>
+        <ul class="line clear">
+          <li>
+            <div class="imgholder"><a href="#"><img src="images/2.jpg" alt="" /></a></div>
+            <p class="name">Movie - Kartabgar</p>
+            <p class="readmore"><a href="#">View This Project &raquo;</a></p>
+          </li>
+          <li>
+            <div class="imgholder"><a href="#"><img src="images/3.jpg" alt="" /></a></div>
+            <p class="name">Drama 1</p>
+            <p class="readmore"><a href="#">View This Project &raquo;</a></p>
+          </li>
+          <li class="last">
+            <div class="imgholder"><a href="#"><img src="images/4.jpg" alt="" /></a></div>
+            <p class="name">Drama 2</p>
+            <p class="readmore"><a href="#">View This Project &raquo;</a></p>
+          </li>
+        </ul>
+      </div>
+      <!-- ########### -->
+      <div id="tabs-3" class="tabcontainer">
+        <div id="hpage_portfolio" class="clear">
+          <div class="fl_left">
+            <div id="portfolioslider">
+              <ul>
+                <li><img src="images/1.jpg" alt="" /></li>
+                <li><img src="images/5.jpg" alt="" /></li>
+                <li><img src="images/6.jpg" alt="" /></li>
+                <li><img src="images/7.jpg" alt="" /></li>
+                <!--<li><img src="images/demo/portfolioslider/5.gif" alt="" /></li>-->
+              </ul>
+            </div>
+          </div>
+          <div class="fl_right">
+            <h2>The Team:</h2>
+            <p>Here meet the team of Me Kalakaar.in :</p>
+            <ul>
+              <li>Gorakh Bhosale</li>
+              <li>Prof. Dattatray Thorat</li>
+              <li>Rajendra Jagdale</li>
+              <li>Siddharth More </li>
+              <li>Ganesh Fartale</li>
+              <li>Vinay Sonawane</li>
+            </ul>
+            <p></p>
+            <p class="readmore"><a href="#">Read More &raquo;</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ####################################################################################################### -->
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper">
+  <div id="footer" class="clear">
+    <div class="footbox">
+      <h2>About Us</h2>
+      <p>Everyone of you has that some special thing inside you. Everyone of you is an artist in your own way. Some people discover this artist and some just keep it silent.</p>
+      <p>We are a group of people who discovered this artist inside us, but we did not stop there. We gave ourselves a platform to present, to improvise and to achieve something. <i>'Me Kalakaar'</i> is this platform, where you can meet new opportunities and flourish with the theatre. Come Join us - Lets start a new Era!</p>
+    </div>
+    <div class="footbox">
+      <h2>Our Projects</h2>
+      <ul>
+        <li><a href="#">Movie - Kartabgar</a></li>
+        <li><a href="#">Movie 2</a></li>
+        <li><a href="#">Drama 1</a></li>
+        <li><a href="#">Drama 2</a></li>
+        <li><a href="#">Stage Show 1</a></li>
+        <li class="last"><a href="#">Stage show 2</a></li>
+        <!--<li><a href="#">In nec justo non</a></li>
+        <li><a href="#">Vivamus mollis enim ut</a></li>
+        <li class="last"><a href="#">Sed a nulla urna</a></li>-->
+      </ul>
+    </div>
+    <div class="footbox">
+      <h2>The Team</h2>
+      <ul>
+        <li><a href="#">Gorakh Bhosale</a></li>
+        <li><a href="#">Prof. Dattatray Thorat</a></li>
+        <li><a href="#">Rajendra Jagdale</a></li>
+        <li><a href="#">Siddharth More</a></li>
+        <li><a href="#">Ganesh Fartale</a></li>
+        <li class="last"><a href="#">Vinay Sonawane</a></li>
+        <!--<li><a href="#">In nec justo non</a></li>
+        <li><a href="#">Vivamus mollis enim ut</a></li>
+        <li class="last"><a href="#">Sed a nulla urna</a></li>-->
+      </ul>
+    </div>
+    <div class="footbox last">
+      <h2>Keep in Touch</h2>
+      <ul>
+        <li><a href="#">Check out our Facebook page</a></li>
+        <li><a href="#">Get the latest Tweets</a></li>
+        <li><a href="#">Grab our latest Deviants</a></li>
+        <li><a href="#">View our LinkedIn profile</a></li>
+      </ul>
+      <h2>Contact Us</h2>
+      <ul>
+        <li><strong class="title">Tel:</strong><br />
+          +91 9850083751</li>
+        <li><strong class="title">Email:</strong><br />
+          <a href="#">contactus@mekalakaar.in</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper">
+  <div id="copyright" class="clear">
+    <p class="fl_left">Copyright &copy; 2013 - All Rights Reserved - <a href="#">www.mekalakaar.in</a></p>
+    <p class="fl_right">A Website By <a href="http://www.amistar.in/" title="Amistar Technologies"><span id="amistar">Amistar Technologies</span></a></p>
+  </div>
+</div>
+</body>
+</html>
