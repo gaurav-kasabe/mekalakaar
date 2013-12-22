@@ -2,11 +2,11 @@ mekalakaar
 ==========
 Components:
 
-Homepage
-Gallery
-About Us
-Activites
-Contact Us
+Homepage ||
+Gallery ||
+About Us ||
+Activites ||
+Contact Us ||
 User Management
 
 
